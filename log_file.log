@@ -1,0 +1,1828 @@
+WARNING:root:watch yo jet bro. watch yo jet bro. watCH YO J-
+ERROR:root:bruh.
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 102, in index
+    with open("updates.json") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'updates.json'
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:26:03] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 119, in index
+    articles = json.loads(open("appdata.json").read())["news_articles"]
+FileNotFoundError: [Errno 2] No such file or directory: 'appdata.json'
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:27:09] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 119, in index
+    articles = json.loads(open("appdata.json").read())["news_articles"]
+FileNotFoundError: [Errno 2] No such file or directory: 'appdata.json'
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:27:10] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 119, in index
+    articles = json.loads(open("appdata.json").read())["news_articles"]
+FileNotFoundError: [Errno 2] No such file or directory: 'appdata.json'
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:27:12] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:27:55] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:27:55] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:28:34] "GET /index?update=16%3A29&two=update&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:28:34] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:28:37] "GET /index?update_item= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:28:37] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:29:38] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:29:38] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:30:39] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:30:39] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:31:41] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:31:41] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 157, in index
+    return render_template(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\templating.py", line 147, in render_template
+    return _render(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\templating.py", line 128, in _render
+    rv = template.render(context)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\jinja2\environment.py", line 1291, in render
+    self.environment.handle_exception()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\jinja2\environment.py", line 925, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\templates\index.html", line 33, in top-level template code
+    {% for update in updates: %}
+TypeError: 'NoneType' object is not iterable
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:32:26] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:33:24] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:33:24] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:34:25] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:34:25] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:35:26] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:35:26] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:36:27] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:36:27] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:37:28] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:37:28] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:38:30] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:38:30] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:39:30] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:39:30] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:40:31] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:40:31] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:41:32] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:41:33] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:42:33] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:42:33] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:43:35] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:43:35] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:44:36] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:44:36] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:45:37] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:45:37] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:46:38] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:46:38] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:47:39] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:47:39] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:48:40] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:48:40] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:49:41] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:49:41] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:50:42] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:50:42] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:51:43] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:51:43] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:52:44] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:52:44] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:53:46] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:53:46] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:54:47] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:54:47] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:55:48] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:55:48] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:56:50] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:56:50] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:57:51] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:57:51] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:58:53] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:58:53] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:59:54] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 16:59:54] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 17:00:54] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 17:00:54] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 17:01:55] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 17:01:56] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 17:02:56] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 17:02:56] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 17:08:22] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 17:08:22] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 17:09:24] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [11/Dec/2021 17:09:25] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Dec/2021 00:17:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Dec/2021 00:17:45] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 114, in index
+    if alarm_datetime >= datetime.now():
+TypeError: '>=' not supported between instances of 'str' and 'datetime.datetime'
+INFO:werkzeug:127.0.0.1 - - [12/Dec/2021 14:25:59] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 114, in index
+    alarm_datetime = update[0]
+TypeError: '>=' not supported between instances of 'str' and 'datetime.datetime'
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 13:50:46] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 13:50:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 116, in index
+    if alarm_datetime >= datetime.now():
+TypeError: '>=' not supported between instances of 'str' and 'datetime.datetime'
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 13:52:07] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 116, in index
+    if alarm_datetime >= datetime.now():
+TypeError: '>=' not supported between instances of 'str' and 'datetime.datetime'
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 13:52:08] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 116, in index
+    if alarm_datetime >= datetime.now():
+TypeError: '>=' not supported between instances of 'str' and 'datetime.datetime'
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 13:52:09] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 116, in index
+    if alarm_datetime >= datetime.now():
+TypeError: '>=' not supported between instances of 'str' and 'datetime.datetime'
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 13:52:17] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 13:53:35] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 13:53:35] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 13:53:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 13:54:35] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 13:54:35] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 13:55:36] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 13:55:36] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 13:56:37] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 13:56:37] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 13:57:38] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 13:57:38] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 13:58:40] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 13:58:40] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 13:59:40] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 13:59:40] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:00:41] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:00:41] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:01:42] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:01:42] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:02:28] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:02:28] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:03:29] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:03:29] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:04:30] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:04:30] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:05:31] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:05:31] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:06:31] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:06:31] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:07:32] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:07:32] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:08:33] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:08:33] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:09:34] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:09:34] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:10:35] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:10:35] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:11:36] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:11:36] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:12:37] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:12:37] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:13:38] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:13:38] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:14:39] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:14:39] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:15:40] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:15:40] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:16:41] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:16:41] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:17:42] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:17:42] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:18:43] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:18:43] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:19:44] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:19:44] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:20:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:20:45] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:21:46] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:21:46] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:22:47] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:22:47] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:23:48] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:23:48] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:24:49] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:24:49] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:25:49] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:25:49] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:26:26] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:26:26] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:26:39] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:26:39] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:26:48] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:26:48] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 132, in index
+    alarm_datetime = datetime.strptime(alarm_datetime, "%Y-%m-%d %H:%M:%S")
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2021-15-10 16:00:00' does not match format '%Y-%m-%d %H:%M:%S'
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:27:44] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 132, in index
+    alarm_datetime = datetime.strptime(alarm_datetime, "%Y-%m-%d %H:%M:%S")
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '2021-15-10 16:00:00' does not match format '%Y-%m-%d %H:%M:%S'
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:27:45] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:28:57] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:28:57] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:29:58] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:29:58] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:30:59] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:30:59] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:32:00] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:32:00] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:33:01] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:33:01] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:34:01] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:34:01] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:35:02] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:35:02] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:36:03] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:36:03] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:37:04] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:37:04] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:38:05] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:38:05] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:39:06] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:39:06] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:40:07] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:40:07] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:41:07] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:41:07] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:42:08] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:42:08] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:43:09] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:43:09] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:44:09] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:44:10] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:45:10] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:45:10] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:46:11] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:46:11] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:47:12] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:47:12] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:48:13] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:48:13] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:49:14] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:49:14] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:50:15] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:50:15] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:50:19] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:50:19] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:50:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:50:22] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:50:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:50:28] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:50:50] "GET /index?update=15%3A00&two=omniupdate&covid-data=covid-data&news=news HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:50:50] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:51:16] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:51:16] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:51:51] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:51:51] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:52:17] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:52:17] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:52:51] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:52:51] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:53:18] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:53:18] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:53:53] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:53:53] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:54:19] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:54:19] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:54:54] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:54:54] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:55:20] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:55:20] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:55:54] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:55:55] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:56:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:56:21] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:56:55] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:56:55] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:57:22] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:57:22] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:57:56] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:57:56] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:58:23] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:58:23] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:58:57] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:58:57] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:59:24] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:59:24] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:59:58] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 14:59:58] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:00:25] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:00:25] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:00:58] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:00:58] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:01:26] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:01:26] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:01:38] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:01:38] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:01:59] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:01:59] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:02:27] "GET /index?update=16%3A00&two=covid+update&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:02:27] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:02:32] "GET /index?notif=%3Ca+href%3Dhttps%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Fworld-europe-59517114%3ECovid-19%3A+Ireland+closes+nightclubs+and+tightens+Covid+rules%3C%2Fa%3E HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:02:32] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:03:33] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:03:33] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:04:34] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:04:34] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:06:42] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:06:42] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:07:43] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:07:43] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:08:43] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:08:43] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:09:44] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:09:44] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:10:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:10:45] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:11:46] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:11:46] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:12:47] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:12:47] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:13:48] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:13:48] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:14:49] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:14:49] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:15:50] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:15:50] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:16:51] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:16:51] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:17:52] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:17:52] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:18:53] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:18:53] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:19:53] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:19:53] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:20:54] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:20:54] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:21:55] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:21:55] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:22:56] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:22:56] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:23:57] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:23:57] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:24:58] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:24:58] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:25:59] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:26:00] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:27:00] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:27:00] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:27:57] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:27:57] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:28:04] "GET /index?notif=%3Ca+href%3Dhttps%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Fworld-europe-59517114%3ECovid-19%3A+Ireland+closes+nightclubs+and+tightens+Covid+rules%3C%2Fa%3E HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:28:04] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:28:06] "GET /index?notif=%3Ca+href%3Dhttps%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Fworld-europe-59517114%3ECovid-19%3A+Ireland+closes+nightclubs+and+tightens+Covid+rules%3C%2Fa%3E HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:28:06] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:29:07] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:29:07] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:49:12] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:49:12] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [13/Dec/2021 15:49:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:44:53] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:44:54] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:45:11] "GET /index?update=11%3A45&two=covid+update&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:45:11] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:45:43] "GET /index?update=12%3A00&two=midday+covid+update&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:45:43] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:46:10] "GET /index?update=11%3A50&two=eleven-fifty+cvd+update&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:46:10] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:47:13] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:47:13] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:48:16] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:48:16] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:49:17] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:49:17] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:50:22] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:50:22] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:51:24] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:51:24] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:52:28] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:52:28] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:53:32] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:53:32] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:54:35] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:54:35] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:55:37] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:55:37] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:56:40] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:56:40] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:57:42] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:57:42] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:58:44] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:58:44] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:59:47] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 11:59:47] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:00:49] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:00:49] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:01:52] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:01:52] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:02:55] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:02:55] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:03:57] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:03:57] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:05:00] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:05:01] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:06:04] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:06:04] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:07:08] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:07:08] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:08:14] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:08:14] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:09:16] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:09:16] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:10:19] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:10:19] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:11:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:11:21] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:12:23] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:12:23] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:13:26] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:13:26] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:14:31] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:14:31] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:15:34] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:15:34] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:16:36] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:16:36] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:17:39] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:17:39] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:18:41] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:18:41] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:19:43] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:19:43] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:20:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:20:45] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\util\retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\packages\six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connection.py", line 416, in connect
+    self.sock = ssl_wrap_socket(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\ssl.py", line 500, in wrap_socket
+    return self.sslsocket_class._create(
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\ssl.py", line 1040, in _create
+    self.do_handshake()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\ssl.py", line 1309, in do_handshake
+    self._sslobj.do_handshake()
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 161, in index
+    try:
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\covid_news_handling.py", line 25, in news_API_request
+    response = get("https://newsapi.org")
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:22:14] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:27:18] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:27:19] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:27:36] "GET /index?update=13%3A00&two=update+news&news=news HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:27:36] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:28:38] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:28:38] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:29:40] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:29:41] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:30:43] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:30:43] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:31:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:31:45] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:32:54] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:32:54] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:33:57] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:33:57] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:34:59] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:35:00] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:36:04] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:36:04] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:37:07] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:37:07] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:38:10] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:38:10] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:39:12] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:39:12] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:40:14] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:40:14] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:41:20] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:41:20] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:42:22] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:42:22] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:43:56] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:43:56] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:44:08] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:44:09] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:44:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:44:28] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:44:59] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:44:59] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:45:11] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:45:11] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:45:30] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:45:30] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:45:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:45:49] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:50:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:50:19] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:50:25] "GET /index?update_item=update+news HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:50:25] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:51:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:51:22] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:51:27] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:51:27] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:51:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:51:46] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:51:51] "GET /index?update_item=update+news HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:51:51] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:51:57] "GET /index?update_item=update+news HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:51:57] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:52:26] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:52:26] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:52:30] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:52:30] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:52:59] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:52:59] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:53:28] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:53:28] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:53:33] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:53:33] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:54:01] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:54:01] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:54:30] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:54:30] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:54:34] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:54:35] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:55:04] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:55:04] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:55:32] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:55:32] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:55:37] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:55:37] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:56:09] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:56:09] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:56:35] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:56:35] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:56:39] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:56:39] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:57:11] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:57:11] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:57:39] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:57:39] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:57:41] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:57:42] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:58:15] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:58:15] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:58:41] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:58:41] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:58:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:58:45] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:59:17] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:59:17] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:59:43] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:59:43] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:59:46] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 12:59:46] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:00:19] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:00:19] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:00:47] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:00:47] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:00:49] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:00:49] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:03:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:03:27] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:04:33] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:04:33] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+WARNING:root:watch yo jet bro. watch yo jet bro. watCH YO J-
+ERROR:root:bruh. error occured at 2021-12-14 13:05:13.788198
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:05:36] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:05:36] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:06:39] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:06:39] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:07:42] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:07:42] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:08:46] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:08:46] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:09:53] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:09:53] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:10:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:10:00] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 220, in index
+    store_update(alarm_time.replace(second=0), "covid-data", request.args["two"], str(repeat))
+TypeError: store_update() missing 1 required positional argument: 'repeat'
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:10:37] "[35m[1mGET /index?update=13%3A11&two=covid+update&covid-data=covid-data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:10:55] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 13:10:55] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connection.py", line 358, in connect
+    conn = self._new_conn()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000020205D6DD00>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='newsapi.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020205D6DD00>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 191, in index
+    articles = news_API_request()
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\covid_news_handling.py", line 25, in news_API_request
+    response = get("https://newsapi.org")
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='newsapi.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020205D6DD00>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 19:37:01] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connection.py", line 358, in connect
+    conn = self._new_conn()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000025BA6A1ED00>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='newsapi.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000025BA6A1ED00>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 191, in index
+    articles = news_API_request()
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\covid_news_handling.py", line 27, in news_API_request
+    response = get("https://newsapi.org")
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='newsapi.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000025BA6A1ED00>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 19:39:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 19:43:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 19:43:51] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 19:44:35] "GET /index?update=19%3A45&two=covid&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 19:44:35] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 159, in index
+    alarm_datetime = datetime.strptime(alarm_datetime, "%Y-%m-%d %H:%M:%S")
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data "Event(time=1639511160.4953287, priority=1, sequence=0, action=<function update_covid_data at 0x0000025BA69CF9D0>, argument=('covid', False), kwargs={})" does not match format '%Y-%m-%d %H:%M:%S'
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 19:45:35] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:WARNING: event Event(time=1639511160.4953287, priority=1, sequence=0, action=<function update_covid_data at 0x0000025BA69CF9D0>, argument=('covid', False), kwargs={}) could not be cancelled at 2021-12-14 19:53:16.804900 because it does not exist.
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 19:53:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 19:53:17] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 19:53:33] "GET /index?update=19%3A54&two=covidd&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 19:53:33] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 19:54:34] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 19:54:34] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 19:55:35] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 19:55:35] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 19:56:35] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 19:56:35] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 19:57:37] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 19:57:37] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 19:58:38] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 19:58:38] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 19:59:39] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 19:59:39] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:00:40] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:00:40] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:01:41] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:01:41] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:02:42] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:02:42] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:03:43] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:03:43] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:04:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:04:45] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:05:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:05:46] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:06:47] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:06:47] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:07:48] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:07:48] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:08:50] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:08:50] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:09:50] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:09:50] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:13:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:13:47] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:14:49] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:14:49] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:15:50] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:15:50] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:16:51] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:16:51] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:49:39] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:49:39] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:50:40] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:50:40] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:51:40] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:51:40] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:52:41] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:52:41] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:53:42] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:53:42] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:54:43] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:54:43] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:55:44] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:55:44] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:56:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:56:45] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:57:46] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:57:46] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:58:47] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:58:47] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:59:48] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 20:59:48] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:00:49] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:00:49] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:01:50] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:01:50] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:02:51] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:02:51] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:03:52] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:03:52] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:04:54] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:04:54] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:05:55] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:05:55] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:06:56] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:06:56] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:07:57] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:07:57] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:08:59] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:08:59] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:10:00] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:10:00] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:11:01] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:11:01] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:12:01] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:12:01] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:WARNING: event Event(time=1639511700.0390563, priority=1, sequence=0, action=<function update_covid_data at 0x000001F1DBCFDA60>, argument=('covidd', False), kwargs={}) could not be cancelled at 2021-12-14 21:14:03.557788 because it does not exist.
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:14:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:14:04] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:14:15] "GET /index?update=21%3A15&two=cnid&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:14:15] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:15:17] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:15:17] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:16:17] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:16:17] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:17:19] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:17:19] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:18:20] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:18:20] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:19:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:19:21] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:20:23] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:20:23] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:21:24] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:21:24] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:22:25] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:22:25] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:23:27] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:23:27] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:27:35] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:27:35] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:28:36] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:28:36] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:29:38] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:29:38] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:30:39] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:30:39] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:31:40] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:31:40] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:32:41] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:32:41] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:33:41] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:33:42] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:34:43] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:34:43] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:35:43] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:35:43] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:36:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:36:45] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:37:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:37:46] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:38:47] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:38:47] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:39:48] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:39:48] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:40:49] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:40:49] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:41:50] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:41:50] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:42:52] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:42:52] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:43:53] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:43:53] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:44:54] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:44:54] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:45:55] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:45:55] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:WARNING: event Event(time=1639516560.870834, priority=1, sequence=0, action=<function update_covid_data at 0x00000239A833DA60>, argument=('cnid', False), kwargs={}) could not be cancelled at 2021-12-14 21:46:35.463602 because it does not exist.
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:46:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:46:36] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:46:46] "GET /index?update=21%3A47&two=coobib&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:46:46] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:46:56] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:46:57] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:47:47] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:47:47] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:47:58] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:47:58] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:48:48] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:48:49] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:48:59] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:48:59] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:49:50] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:49:50] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:50:00] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:50:00] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:50:51] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:50:51] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:51:01] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:51:01] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:51:52] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:51:52] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:52:02] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:52:02] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:52:53] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:52:53] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:53:03] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:53:03] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:53:54] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:53:54] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:54:04] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:54:04] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:WARNING: event Event(time=1639518420.6437929, priority=1, sequence=0, action=<function update_covid_data at 0x000001985C34DA60>, argument=('coobib', False), kwargs={}) could not be cancelled at 2021-12-14 21:54:13.206420 because it does not exist.
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:54:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:54:13] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:54:23] "GET /index?update=21%3A55&two=candid&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:54:23] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:54:56] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:54:56] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:55:06] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:55:06] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:WARNING: event Event(time=1639518900.3698382, priority=1, sequence=0, action=<function update_covid_data at 0x000001AAF0CBDA60>, argument=('candid', False), kwargs={}) could not be cancelled at 2021-12-14 21:55:09.630302 because it does not exist.
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:55:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:55:11] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 202, in index
+    alarm_time = datetime.strptime(request.args["update"], "%Y-%m-%d %H:%M:%S")
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '21:56' does not match format '%Y-%m-%d %H:%M:%S'
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:55:21] "[35m[1mGET /index?update=21%3A56&two=candid&covid-data=covid-data HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:55:24] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:55:24] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:55:56] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:55:56] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:56:07] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:56:07] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:56:25] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:56:25] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:56:57] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:56:57] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:57:08] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:57:08] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:57:26] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:57:26] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:57:58] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:57:58] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:58:08] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:58:09] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:58:27] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:58:27] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:58:59] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:58:59] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:59:10] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:59:10] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:59:28] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 21:59:28] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:00:00] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:00:00] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:00:11] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:00:11] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:00:29] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:00:29] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:01:01] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:01:01] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:01:12] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:01:13] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:01:29] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:01:29] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:02:02] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:02:02] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:02:13] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:02:14] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:02:30] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:02:30] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:03:04] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:03:04] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:03:15] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:03:15] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:03:31] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:03:31] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:04:05] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:04:05] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:04:16] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:04:16] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:04:33] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:04:33] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:WARNING: No covid data was present. API call automatically made at 2021-12-14 22:06:36.206281
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:06:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:06:36] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:07:37] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:07:37] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:08:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:08:21] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+WARNING:root:INFO: covid-data branch statement has been executed. FIX THE SCHEDULER EEEEE
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:08:34] "GET /index?update=22%3A09&two=katniss&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:08:34] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+WARNING:root:WARNING: event Event(time=1639519740.0444908, priority=1, sequence=0, action=<function update_covid_data at 0x00000187DAD3DA60>, argument=('katniss', False), kwargs={}) could not be cancelled at 2021-12-14 22:09:34.201363 because it does not exist.
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:09:35] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:09:35] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:10:36] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:10:36] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:11:36] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:11:36] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:12:37] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:12:38] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:13:39] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:13:39] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:14:40] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:14:40] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:15:40] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:15:40] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:16:41] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:16:41] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:17:42] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:17:42] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:18:44] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:18:44] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:19:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:19:45] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:20:46] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:20:46] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:21:47] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:21:47] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:23:08] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:23:08] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:24:09] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:24:09] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:25:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:25:00] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:25:11] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:25:11] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+WARNING:root:INFO: covid-data branch statement has been executed. FIX THE SCHEDULER EEEEE
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:25:14] "GET /index?update=22%3A26&two=corona+varrrus&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:25:14] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+WARNING:root:WARNING: event Event(time=1639520760.659019, priority=1, sequence=0, action=<function update_covid_data at 0x000001F5C3F7FA60>, argument=('corona varrrus', False), kwargs={}) could not be cancelled at 2021-12-14 22:26:11.479700 because it does not exist.
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:26:11] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:26:12] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:26:15] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:26:15] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:27:13] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:27:13] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:27:16] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:27:16] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:28:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:28:13] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:28:14] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:28:14] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:28:17] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:28:17] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+WARNING:root:INFO: covid-data branch statement has been executed. FIX THE SCHEDULER EEEEE
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:28:27] "GET /index?update=22%3A29&two=putrid&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:28:27] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+WARNING:root:WARNING: event Event(time=1639520940.7774682, priority=1, sequence=0, action=<function update_covid_data at 0x00000255089BD9D0>, argument=('putrid', False), kwargs={}) could not be cancelled at 2021-12-14 22:29:14.302420 because it does not exist.
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:29:14] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:29:14] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:29:18] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:29:18] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:29:28] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:29:28] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:30:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:30:13] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:30:16] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:30:16] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:30:19] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:30:19] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+WARNING:root:INFO: covid-data branch statement has been executed. FIX THE SCHEDULER EEEEE
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:30:20] "GET /index?update=22%3A31&two=hnnnnng&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:30:20] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 233, in index
+    update_type = update_types[update[1]][0]
+KeyError: '2021-12-14 22:31:00'
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:30:29] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:31:17] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:31:17] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:31:20] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:31:20] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:31:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:31:22] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:WARNING: event Event(time=1639521060.9526174, priority=1, sequence=0, action=<function update_covid_data at 0x00000239197BDA60>, argument=('hnnnnng', False), kwargs={}) could not be cancelled at 2021-12-14 22:31:57.192968 because it does not exist.
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:31:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:31:57] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+WARNING:root:INFO: covid-data branch statement has been executed. FIX THE SCHEDULER EEEEE
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:32:07] "GET /index?update=22%3A32&two=eeeee&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:32:07] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:32:18] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:32:18] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+WARNING:root:INFO: covid-data branch statement has been executed. FIX THE SCHEDULER EEEEE
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:32:19] "GET /index?update=22%3A33&two=eeee+2.0&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:32:19] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:32:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:32:21] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:32:23] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:32:23] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:33:19] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:33:19] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:33:20] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:33:20] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:33:22] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:33:22] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:33:24] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:33:24] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:34:20] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:34:20] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:34:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:34:21] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:34:22] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:34:22] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:34:26] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:34:26] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:35:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:35:21] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:35:22] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:35:22] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:35:23] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:35:23] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:35:27] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:35:27] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:36:23] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:36:23] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:36:23] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:36:23] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:36:24] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:36:24] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:36:28] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:36:28] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:37:24] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:37:24] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:37:25] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:37:25] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:37:25] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:37:25] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:37:29] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:37:29] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:38:25] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:38:25] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:38:26] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:38:26] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:38:27] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:38:27] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:38:30] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:38:30] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:39:26] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:39:26] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:39:27] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:39:27] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:39:28] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:39:28] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:39:31] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:39:31] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:40:27] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:40:27] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:40:28] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:40:28] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:40:29] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:40:29] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:40:32] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:40:32] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:41:28] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:41:28] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:41:29] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:41:29] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:41:30] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:41:30] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:41:33] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:41:33] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:WARNING: event Event(time=1639521120.0277588, priority=1, sequence=0, action=<function update_covid_data at 0x000001C08CC7EA60>, argument=('eeeee', False), kwargs={}) could not be cancelled at 2021-12-14 22:46:44.332549 because it does not exist.
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:46:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:46:44] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+WARNING:root:INFO: covid-data branch statement has been executed. FIX THE SCHEDULER EEEEE
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:46:52] "GET /index?update=22%3A47&two=covid+update&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:46:52] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+WARNING:root:INFO: covid-data branch statement has been executed. FIX THE SCHEDULER EEEEE
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:47:40] "GET /index?update=22%3A47&two=covid+update&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:47:40] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+WARNING:root:INFO: covid-data branch statement has been executed. FIX THE SCHEDULER EEEEE
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:47:53] "GET /index?update=22%3A47&two=covid+update&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:47:53] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+WARNING:root:INFO: covid-data branch statement has been executed. FIX THE SCHEDULER EEEEE
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:48:03] "GET /index?update=22%3A47&two=covid+update&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:48:03] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+WARNING:root:INFO: covid-data branch statement has been executed. FIX THE SCHEDULER EEEEE
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:48:13] "GET /index?update=22%3A47&two=covid+update&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:48:13] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+WARNING:root:INFO: covid-data branch statement has been executed. FIX THE SCHEDULER EEEEE
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:48:24] "GET /index?update=22%3A49&two=candid&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:48:24] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:49:25] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:49:25] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:WARNING: event Event(time=1639521180.2886884, priority=1, sequence=1, action=<function update_covid_data at 0x000001C08CC7EA60>, argument=('eeee 2.0', False), kwargs={}) could not be cancelled at 2021-12-14 22:49:55.624316 because it does not exist.
+WARNING:root:WARNING: event Event(time=1639522020.3441122, priority=1, sequence=1, action=<function update_covid_data at 0x000002373957EA60>, argument=('covid update', False), kwargs={}) could not be cancelled at 2021-12-14 22:49:55.628321 because it does not exist.
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 242, in index
+    update_type = update_types[update[1]][0]
+KeyError: '2021-12-15 22:47:00'
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:49:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:50:27] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:50:27] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:51:28] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:51:28] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:WARNING: event Event(time=1639522020.5253785, priority=1, sequence=0, action=<function update_covid_data at 0x000002373957EA60>, argument=('covid update', False), kwargs={}) could not be cancelled at 2021-12-14 22:52:23.272266 because it does not exist.
+WARNING:root:WARNING: event Event(time=1639522140.7872453, priority=1, sequence=5, action=<function update_covid_data at 0x000002373957EA60>, argument=('candid', False), kwargs={}) could not be cancelled at 2021-12-14 22:52:23.288131 because it does not exist.
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:52:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:52:23] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:WARNING: event Event(time=1639522020.170891, priority=1, sequence=2, action=<function update_covid_data at 0x000002373957EA60>, argument=('covid update', False), kwargs={}) could not be cancelled at 2021-12-14 22:52:52.478994 because it does not exist.
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:52:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:52:52] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:52:57] "GET /index?update_item=covid+update HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:52:57] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:52:59] "GET /index?update_item=covid+update HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:52:59] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+WARNING:root:INFO: covid-data branch statement has been executed. FIX THE SCHEDULER EEEEE
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:53:05] "GET /index?update=22%3A54&two=candid&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:53:06] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:53:58] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:53:58] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:54:08] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:54:08] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:54:59] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:54:59] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:55:09] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:55:09] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:56:10] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:56:10] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:57:12] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:57:12] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:58:15] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:58:15] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:59:16] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 22:59:16] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:00:18] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:00:18] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:01:19] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:01:19] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:02:20] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:02:20] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:03:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:03:21] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:04:22] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:04:22] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 151, in index
+    with open("updates.csv") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'updates.csv'
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:05:22] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 151, in index
+    with open("updates.csv") as file:
+FileNotFoundError: [Errno 2] No such file or directory: 'updates.csv'
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:07:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR:main:Exception on / [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 153, in index
+    for line in csv_reader:  # each line is read and appended to the list
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x8f in position 114: character maps to <undefined>
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:08:48] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:17:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:17:43] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+WARNING:root:INFO: covid-data branch statement has been executed. FIX THE SCHEDULER EEEEE
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:18:20] "GET /index?update=00%3A00&two=Midnight+Covid+Update&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:18:20] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:19:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:19:21] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:19:58] "GET /index?update=00%3A19&two=uuu&repeat=repeat&covid-data=covid-data&news=news HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:19:58] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:20:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:20:41] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:21:31] "GET /index?update=03%3A22&two=covid+update&repeat=repeat&covid-data=covid-data&news=news HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:21:32] "GET /index?update=03%3A22&two=covid+update&repeat=repeat&covid-data=covid-data&news=news HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:21:33] "GET /index?update=03%3A22&two=covid+update&repeat=repeat&covid-data=covid-data&news=news HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:21:33] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:23:38] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:23:38] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:24:40] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:24:40] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connection.py", line 358, in connect
+    conn = self._new_conn()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000002A96950EFD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='newsapi.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002A96950EFD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 166, in index
+    articles = news_API_request()
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\covid_news_handling.py", line 27, in news_API_request
+    response = get("https://newsapi.org")
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='newsapi.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002A96950EFD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO:werkzeug:127.0.0.1 - - [14/Dec/2021 23:37:33] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:WARNING: event Event(time=1639607760.1329238, priority=1, sequence=0, action=<function update_covid_data at 0x000002A9694BFA60>, argument=('Midnight Covid Update', False), kwargs={}) could not be cancelled at 2021-12-15 11:47:01.062901 because it does not exist.
+WARNING:root:WARNING: event Event(time=1639596120.564094, priority=1, sequence=3, action=<function update_all at 0x000002A9694BFAF0>, argument=('covid update', True), kwargs={}) could not be cancelled at 2021-12-15 11:47:01.066908 because it does not exist.
+WARNING:root:WARNING: event Event(time=1639596120.0970654, priority=1, sequence=5, action=<function update_all at 0x000002A9694BFAF0>, argument=('covid update', True), kwargs={}) could not be cancelled at 2021-12-15 11:47:01.070898 because it does not exist.
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 11:47:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 11:47:01] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 11:47:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+WARNING:root:INFO: covid-data branch statement has been executed. FIX THE SCHEDULER EEEEE
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 11:47:53] "GET /index?update=12%3A00&two=covid+update&covid-data=covid-data HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 11:47:53] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 11:48:54] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 11:48:54] "[36mGET /static/images/giveyourmeatagoodolrub.jpg HTTP/1.1[0m" 304 -
+ERROR:main:Exception on /index [GET]
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\lib\socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connectionpool.py", line 382, in _make_request
+    self._validate_conn(conn)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connectionpool.py", line 1010, in _validate_conn
+    conn.connect()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connection.py", line 358, in connect
+    conn = self._new_conn()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x00000245CCA49A90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='newsapi.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000245CCA49A90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\flask\app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\main.py", line 166, in index
+    articles = news_API_request()
+  File "C:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\covid_news_handling.py", line 27, in news_API_request
+    response = get("https://newsapi.org")
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\sessions.py", line 542, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\sessions.py", line 655, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Users\Nevan Masterson\Documents\!Uni\Python\!Projects\Covid Dashboard\venv\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='newsapi.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000245CCA49A90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 12:11:13] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:WARNING: event Event(time=1639606740.1648185, priority=1, sequence=2, action=<function update_all at 0x000002A9694BFAF0>, argument=('uuu', True), kwargs={}) could not be cancelled at 2021-12-15 12:54:01.736454 because it does not exist.
+WARNING:root:WARNING: event Event(time=1639575240.0338528, priority=1, sequence=0, action=<function update_covid_data at 0x00000245CC87EA60>, argument=('covid update', False), kwargs={}) could not be cancelled at 2021-12-15 12:54:01.743531 because it does not exist.
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 12:54:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 12:54:01] "GET /static/images/covid_info.jpg HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:WARNING: event Event(time=1639596120.6955504, priority=1, sequence=4, action=<function update_all at 0x000002A9694BFAF0>, argument=('covid update', True), kwargs={}) could not be cancelled at 2021-12-15 12:54:54.909603 because it does not exist.
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 12:54:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 12:54:55] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 12:55:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 12:55:27] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 12:55:57] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 12:55:57] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 12:56:29] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 12:56:29] "GET /static/images/covid_info.jpg HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 12:56:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 12:56:42] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 12:56:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 12:56:57] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 12:58:03] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 12:58:03] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 12:59:04] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 12:59:05] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:09:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:09:48] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:10:49] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:10:49] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:11:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:11:44] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:11:51] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:11:51] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:22:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:22:35] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:23:37] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:23:37] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:24:38] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:24:38] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:25:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:25:36] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:25:39] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:25:39] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:37:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:37:41] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:38:43] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:38:43] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:39:44] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:39:44] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:40:46] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:40:47] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:41:49] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:41:49] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:42:50] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:42:50] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+WARNING:root:WARNING: No covid data was present. API call automatically made at 2021-12-15 13:43:56.156562
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:44:00] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:44:00] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:45:03] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:45:03] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:46:05] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:46:05] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:47:07] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:47:07] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:48:10] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:48:10] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:49:11] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:49:11] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:50:13] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Dec/2021 13:50:13] "[36mGET /static/images/covid_info.jpg HTTP/1.1[0m" 304 -
